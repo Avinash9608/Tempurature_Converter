@@ -1,0 +1,51 @@
+* {
+  box-sizing: border-box;
+  font-family: "Fjalla One", Impact, Arial, sans-serif;
+}
+
+body {
+  background-image: url("Temperatur_Header_web.jpg");
+}
+
+form {
+  background-color: rgba(255, 0, 0, 0.2);
+  padding: 80px;
+  width: 50%;
+  margin: 100px auto;
+  text-align: center;
+}
+
+#tempCalc label {
+  font-size: 30px;
+}
+
+#temp {
+  border: none;
+  padding: 10px;
+  height: 40px;
+  width: 100px;
+  font-size: 20px;
+  margin-top: 20px;
+}
+
+#temp_diff {
+  height: 40px;
+  border: none;
+  margin-top: 20px;
+  font-size: 15px;
+  vertical-align: top;
+}
+
+[type="submit"] {
+  height: 35px;
+  margin: 20px;
+  width: 100px;
+  font-size: 15px;
+  border: none;
+  background-color: rgba(0, 0, 0, 0.534);
+  color: white;
+}
+
+#resultContainer {
+  font-size: 35px;
+}
